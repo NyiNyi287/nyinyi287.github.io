@@ -256,7 +256,8 @@ opacity:0.7;
 @media(max-width:400px){
     .rights{
  
-    display: flex;
+    padding-top:10px;
+   padding-bottom:10px;
     background-color: indianred;
    
     
