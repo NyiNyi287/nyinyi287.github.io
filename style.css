@@ -110,7 +110,7 @@ h1{
 .menu{
     width: 150px;
     height: 100%;
- opacity: 0;
+ display:none;
 }
 .hiding{
     opacity: 0;
