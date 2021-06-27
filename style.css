@@ -314,9 +314,6 @@ opacity:0.7;
             
             }
             .others{
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
                 height:50px;
                 width:150px;
                 
@@ -349,7 +346,7 @@ opacity:0.7;
             }
     .iconContainer{
     margin-top: 13px;
-        margin-right:20px;
+        margin-left:100px;
 }
  }
  @media(max-width:325px){
