@@ -35,7 +35,7 @@ padding-right:15px;
     display: flex;
     height:20px;
     background-color: indianred;
-    padding:15px;
+   
     
 }
 
@@ -60,7 +60,7 @@ padding-right:15px;
 
 }
 .titleContainer{
-  
+    width:100vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -82,7 +82,7 @@ padding-right:15px;
     justify-content: space-between;
     height:70px;
     width:800px;
-    background-color:rgb(179, 154, 154); 
+    
 }
 .title{
     height:70px;
@@ -110,7 +110,7 @@ h1{
 .menu{
     width: 150px;
     height: 100%;
-    background-color: thistle;
+ opacity: 0;
 }
 .hiding{
     opacity: 0;
@@ -194,7 +194,7 @@ opacity:0.7;
         height:300px;
     }
     .titleContainer{
-      
+      width:100vw;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -210,13 +210,16 @@ opacity:0.7;
        
     
     }
+    .imageContainer{
+        width:100vw;
+    }
     .others{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         height:50px;
        
-        background-color:rgb(179, 154, 154); 
+       
     }
     .title{
         height:50px;
@@ -243,6 +246,9 @@ opacity:0.7;
     }
     }
 @media(max-width:400px){
+    body{
+        width:100vw;
+    }
         .imageContainer{
                 width:100vw;
         }
@@ -254,8 +260,7 @@ opacity:0.7;
             width:100vw;
             height:60px;
             background-color: indianred;
-            padding-left:20px;
-            padding-right: 20px;
+         
             text-align: center;
             
         }
@@ -268,7 +273,7 @@ opacity:0.7;
             justify-content: space-between;
             }
             .titleContainer{
-  
+                width:100vw;
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
@@ -290,7 +295,7 @@ opacity:0.7;
                 justify-content: space-between;
                 height:50px;
                 width:150px;
-                background-color:rgb(179, 154, 154); 
+                
             }
             .title{
                 height:50px;
@@ -331,8 +336,6 @@ opacity:0.7;
         width:100vw;
         height:60px;
         background-color: indianred;
-        padding-left:20px;
-        padding-right: 20px;
         text-align: center;
         
     }
