@@ -125,6 +125,7 @@ h1{
 }
 .iconContainer{
     margin-top: 13px;
+    margin-right:20px;
 }
 .T1{
     transform: rotate(45deg) translateX(4px) translateY(10px);
