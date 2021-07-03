@@ -1,35 +1,71 @@
-const iconContainerTag=document.getElementsByClassName("iconContainer")[0];
-const stick1Tag=document.getElementsByClassName("stick1")[0];
-const stick2Tag=document.getElementsByClassName("stick2")[0];
-const stick3Tag=document.getElementsByClassName("stick3")[0];
-const bodyTag=document.getElementsByClassName("result")[0];
+const pic1=document.querySelector(".pic1");
+const pic2=document.querySelector(".pic2");
+const pic3=document.querySelector(".pic3");
+const mobile=document.querySelector(".mobile");
+const body=document.getElementsByTagName("BODY")[0];
+const final=document.querySelector(".final");
 
-bodyTag.classList.add("created");
-let bol=false;
 
-iconContainerTag.addEventListener("click",()=>{
-if(stick1Tag.classList.contains("isOpened")){
-  stick2Tag.classList.remove("hiding");
-  stick1Tag.classList.remove("T1");
-  stick3Tag.classList.remove("T2");
-  stick1Tag.classList.remove("isOpened");
- 
 
-}else{
-  stick2Tag.classList.add("hiding");
-  stick1Tag.classList.add("T1");
-  stick3Tag.classList.add("T2");
-   stick1Tag.classList.add("isOpened");
+
+mobile.classList.add("flex");
+// }
+
+const pic1f=()=>{
+    setTimeout(()=>{
+        pic1.classList.add("hiding2");
+    },100);
+    setTimeout(()=>{
+        pic1.classList.remove("hiding2");
+    },2500);
+    setTimeout(pic2f,3000);
+
+};
+const pic2f=()=>{
+setTimeout(()=>{
+    pic2.classList.add("hiding2");
+},100);
+setTimeout(()=>{
+    pic2.classList.remove("hiding2");
+},2500);
+setTimeout(pic3f,3000);
+
+};
+const pic3f=()=>{
+
+setTimeout(()=>{
+    pic3.classList.add("hiding2");
+},100);
+setTimeout(()=>{
+    pic3.classList.remove("hiding2");
+},2500);
+setTimeout(pic1f,3000);
 
 }
-if(bol){
-  bodyTag.classList.remove("created2");
-  bol=false;
-}else{
-  bodyTag.classList.add("created2");
-  bol=true;
+setTimeout(pic1f,100);
+   
+const cookies=document.createElement("div");
+cookies.classList.add("cll");
+final.append(cookies);
+const button=document.createElement("button");
+button.append("Agree");
+button.classList.add("clls");
+cookies.append("Cookies section text");
+cookies.append(button);
+
+
+button.addEventListener("click",()=>{
+    cookies.classList.remove("show");
+});
+const finl=()=>{
+    cookies.classList.add("show");
 }
+    
+window.load=setTimeout(finl,5000);
+     
+    
+   
+
+    
 
 
-
-})
