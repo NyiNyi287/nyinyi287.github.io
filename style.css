@@ -4,7 +4,8 @@ body{
     position: relative;
     background-color: rgb(208, 235, 236);
 }
-.menuContainer{
+@media(max-width:400px){
+    .menuContainer{
     width:100vw;
     height:100px;
     background-color: rgb(208, 235, 236);
@@ -151,3 +152,6 @@ body{
     display:flex;
    margin-left:auto;
 }
+
+}
+
