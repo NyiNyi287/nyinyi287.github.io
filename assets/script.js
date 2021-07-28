@@ -24,8 +24,8 @@ const text=["hi","i love you","hello","ဘာလုပ်နေလဲ","ကိ�
 const reply=["Hello","I love you too","hi","လိုင်းသုံးနေတယ်","ဗျာ ပြော သဲလေး","ဗျာ မမ","ဗျာ မမ ပြောလေ","ဟုတ် အရမ်းချစ်",];
 
 button.addEventListener("click",()=>{
-    let teacher=teacherTag.value;
-    let learn=learnTag.value;
+    let teacher=teacherTag.value.toLowerCase();
+    let learn=learnTag.value.toLowerCase();
    if(teacher=="" && learn==""){
       return;
    }
