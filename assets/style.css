@@ -62,6 +62,8 @@ section{
 .footer{
     height:7%;;
     width:100%;
+   position:sticky;
+   bottom:0px;
    
    
 }
