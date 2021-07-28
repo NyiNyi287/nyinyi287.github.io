@@ -70,7 +70,7 @@ section{
     width: max-content;
     margin-top:15px;
     display: flex;
-    max-width: 100px;
+    max-width: 50%;
     min-width:30px;
     border-radius: 20px 20px 0px 20px;
     background-color: #c9f1f1;
@@ -86,7 +86,7 @@ section{
     display: flex;
     width: max-content;
     min-width:30px;
-    max-width: 100px;
+    max-width: 50%;
     border-radius: 20px 20px 20px 0px;
     background-color: #0bdede;
     padding:10px;
