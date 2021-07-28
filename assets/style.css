@@ -58,6 +58,7 @@ section{
 }
 /* messageBox styling */
 .messageBox{
+    margin-top:5px;
     display: flex;
     max-width: 100px;
     border-radius: 20px 20px 0px 20px;
