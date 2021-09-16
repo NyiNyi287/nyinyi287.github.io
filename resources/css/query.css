@@ -52,7 +52,7 @@
         background-color: #fff;
         position:absolute;
         top:54px;
-        left:-102px;
+        left:-115px;
         transition: all ease-in 0.4s;
     } 
     .nav li{
@@ -136,7 +136,7 @@
 .nav-bar{
     background-color: #fff;
     position:absolute;
-    left:-102px;
+    left:-115px;
         transition: all ease-in 0.4s;
 } 
 .nav li{
