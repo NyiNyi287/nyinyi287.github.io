@@ -220,6 +220,7 @@ color:#fff;
   cursor: pointer;
 }
 .cateDiv{
+    height:16%;
     font-size: 100%;
     border-bottom: 1px solid;
     padding:3px;
@@ -229,7 +230,7 @@ color:#fff;
     background-color: rgba(142, 146, 139, 0.432);
 }
 .cateDiv-block{
-    height:auto;
+    height:155px;
     transition: height 1s;
     
 }

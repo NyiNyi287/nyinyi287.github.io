@@ -29,7 +29,7 @@
 /* small phone and small tablets from 481 to 767px*/
 @media only screen and (max-width:767px){
     html{
-        font-size:16px;
+        font-size:18px;
     }
     .row{
         max-width: 650px;
@@ -119,7 +119,7 @@
         max-width: 350px;
     }
     html{
-        font-size: 15px;
+        font-size: 17px;
     }
     .row2{
        
@@ -185,6 +185,9 @@
    min-width: 10%;
    background-color: rgb(109, 111, 202);
     }
+    .second-handler{
+        display: block;
+    }
     .input-handler p{
         top:18px;
        left:30px;
@@ -209,17 +212,12 @@
         overflow: hidden;
         transition: height 1s;
     }
-    .cateDiv{
-        font-size: 100%;
-        width:100%;
-        border-bottom: 1px solid;
-        padding:3px;
-       
-    }
+  
     .cateDiv-block{
-        height:auto;
+        height:150px;
         transition: height 1s;
-    }    
+        
+    }  
  /*----------------- intro section ----------------- */
  .intro{
   
