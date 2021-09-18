@@ -870,7 +870,7 @@ font-size: 90%;
         height: 540px;
         display: flex;
         width:auto;
-        overflow-x: scroll;
+        overflow: hidden;
         
     }
     .event-body::-webkit-scrollbar{
