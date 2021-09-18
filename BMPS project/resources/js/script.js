@@ -14,6 +14,11 @@ const stick3Tag=document.getElementsByClassName("stick3")[0];
 
 const navBarTag=document.getElementsByClassName("nav-bar")[0];
 
+// -------------------------------------courses.html-------------------------------------
+
+
+// ---------------------------------------------------------------------------------------
+
 categoriesTag.addEventListener('click',()=>{
 categoriesFunc();
 });
@@ -22,13 +27,17 @@ iconTAg.addEventListener("click",()=>{
 })
 const categoriesFunc=()=>{
     if(categoriesItemsTag.classList.contains("opened")){
+        categoriesItemsTag.classList.add("display-none");
         categoriesItemsTag.classList.remove("cateDiv-block");
          categoriesItemsTag.classList.remove("opened");
          setTimeout(()=>{ iconTAg.classList.add("fa-chevron-down");},100);
          setTimeout(()=>{ iconTAg.classList.remove("fa-chevron-up");},100);
      }else{
-       
-         categoriesItemsTag.classList.add("cateDiv-block");
+        categoriesItemsTag.classList.remove("display-none");
+        setTimeout(()=>{
+            categoriesItemsTag.classList.add("cateDiv-block");
+        },100);
+        
      
          categoriesItemsTag.classList.add("opened");
          
@@ -72,3 +81,7 @@ iconContainerTag.addEventListener("click",()=>{
     
     }
 });
+// -------------------------------------courses.html-------------------------------------
+
+
+// ---------------------------------------------------------------------------------------

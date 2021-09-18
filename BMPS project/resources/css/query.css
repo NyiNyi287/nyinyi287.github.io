@@ -1,0 +1,596 @@
+
+/* from 1024 to 1200px */
+@media only screen and (max-width:1200px){
+    
+
+/* -------------------------courses.html------------------------------- */
+
+.course-menu{
+    box-shadow: -10px  5px 10px 5px #aaaaaa;
+    border-radius: 10px 10px 0 0;
+    padding-top: 10px;
+    min-width:20%;
+    background-color: #fff;
+    min-width: 338px;
+}
+.course-body{
+    box-shadow: -10px  5px 10px 5px #aaaaaa;
+    border-radius: 10px 10px 0 0;
+    min-width:60%;
+    background-color: #fff;
+    padding-top:1%;
+}
+.video-handler{
+    box-shadow:  -5px 4px 10px  rgba(77, 66, 66, 0.712);;
+    display: inline-block;
+    width:185px;
+    height:130px;
+    margin:10px;
+    position: relative;
+}
+
+}
+
+/* small tablets and big tabets from 768 to 1023px */
+@media only screen and (max-width:1023px){
+    html{
+        font-size: 18px;
+    }
+   
+     /*----------------- subject section ----------------- */
+     .row4{
+        max-width: 500px;
+    }
+     .box-container{
+        margin-top: 50px;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+       
+    }
+    .sub-box{
+        width:30%;
+       
+    }  
+    /* -------------------------courses.html------------------------------- */
+    .courses-main-container{
+        padding-top:25px;
+        width:100%;
+        height:auto;
+        
+        display:flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        background-color: #fff;
+    }
+.course-menu{
+    box-shadow: -3px  5px 10px 5px #aaaaaa;
+    border-radius: 10px 10px 0 0;
+    padding-top: 10px;
+    width:80%;
+    background-color: #fff;
+    min-width: 338px;
+    margin-bottom: 10px;
+    max-height: 30%;
+    position: relative;
+}
+
+.free-courses,.paid-courses{
+    position: absolute;
+    height: 0px;
+    background-color: #FFF;
+    transition: all 0.4s;
+    overflow: hidden;
+    width:100%;
+   
+}
+.course-body{
+    box-shadow: -3px  0px 10px 5px #aaaaaa;
+    border-radius: 0 0 10px 10px ;
+    width:80%;
+    min-height: 60%;
+    max-height: 60%;
+    background-color: #fff;
+    padding-top:1%;
+}
+.video-handler{
+    box-shadow:  -5px 4px 10px  rgba(77, 66, 66, 0.712);;
+    display: inline-block;
+    width:185px;
+    height:130px;
+    margin:10px;
+    position: relative;
+}
+.course-div-animate{
+    box-shadow: 0px  5px 10px 5px #694c4c63;
+    height:auto;
+}
+.course-body h2{
+    top:50%;
+    left:25%;
+   
+}
+.main-vedios-container{
+    padding:20px 20px 0 20px;
+    width:100%;
+    max-height:95%;
+    margin:0 auto;
+    background-color: #FFF;
+    overflow-y: scroll;
+    z-index: 2;
+}
+.main-vedios-container::-webkit-scrollbar{
+    width:0;
+}
+}
+/* small phone and small tablets from 481 to 767px*/
+@media only screen and (max-width:767px){
+    html{
+        font-size:18px;
+    }
+    .row{
+        max-width: 650px;
+    }
+    /*----------------- header section ----------------- */
+    .row4{
+        max-width: 500px;
+    }
+     .box-container{
+        padding-top: 50px;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+       
+    }
+    .nav{
+        padding-left:15px;
+    }
+    .nav-bar{
+        background-color: #fff;
+        position:absolute;
+        top:54px;
+        left:-115px;
+        transition: all ease-in 0.4s;
+    } 
+    .nav li{
+        display:block;
+        padding:0 10px;
+       
+    }
+    .nav li a{
+        text-decoration: none;
+        color:black;
+        font-size: 90%;
+       
+    }
+    /* for animation */
+    .display-block{
+        display: block;
+    }
+    .iconContainer{
+        display:block;
+    }
+    .nav-animate{
+        box-shadow: 5px  5px  10px #535151;
+        left:0px;
+        transition: all ease-in 0.4s;
+    }
+    /* -------------------------------------------- */
+      /* --------------------intro section----------------------- */
+    .categories-items{
+        border-radius: 5px;
+        width:110px;
+        height:125px;
+        background-color: white;
+        position: absolute;
+        top:40px;
+        left:25px;
+        overflow: hidden;
+        transition: all 1s;
+    }
+  
+    .cateDiv-block{
+        top:56px;
+        left:18px;
+        width:130px;
+        height:150px;
+        transition: all 1s;
+        
+    }
+    .cateDiv:hover{
+        background-color: rgba(142, 146, 139, 0.432);
+    }  
+    /*----------------- subject section ----------------- */
+    .sub-box{
+        width:100%;
+        height:auto;
+       
+    }  
+    .sub-text{
+        font-size: 250%;
+        font-weight: 800;
+      
+    }
+
+
+    /*----------------- enroll-intro section ----------------- */
+    .intro-box{
+        width:40%;
+    }
+     /*----------------- blog section ----------------- */
+     .blog-box{
+         width:45%;
+         
+     }
+     
+     /*----------------- footer section ----------------- */
+    
+     .footer-box{
+        width:45%;
+        
+    }
+     /*----------------- coourses.html----------------- */
+
+     .course-menu{
+        box-shadow: -3px  5px 10px 5px #aaaaaa;
+        border-radius: 10px 10px 0 0;
+        padding-top: 10px;
+        width:100%;
+        background-color: #fff;
+        min-width: 338px;
+        margin-bottom: 10px;
+        max-height: 25%;
+        position: relative;
+    }
+    
+    .courses-main-container{
+        padding-top:0;
+        max-width: 95%;
+        width:100%;
+        height:80%vh;
+        display:flex;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: #fff;
+        margin:0 auto;
+    }
+    .free-course, .paid-course {
+        box-shadow: -2px  0px 3px 3px #aaaaaa96;
+
+        border-style: 1px solid black;
+        width:150px;
+        margin-left:10px;
+        margin-bottom: 10px;
+        border-radius: 25px;
+        text-align: center;
+        padding-left:10px;
+   
+    }
+    .free-courses{
+        z-index: 4;
+     }
+    .paid-courses{
+       z-index: 3;
+    }
+    
+    .course-body{
+        display: flex;
+        box-shadow: -3px  0px 10px 5px #aaaaaa;
+        border-radius: 0 0 10px 10px ;
+        width:100%;
+        min-height: 450px;
+       height: 75%;
+        background-color: #fff;
+        padding-top:1%;
+    }
+    .video-handler{
+        box-shadow:  -5px 4px 10px  rgba(77, 66, 66, 0.712);;
+        display: inline-block;
+        width:185px;
+        height:130px;
+        margin:10px;
+        position: relative;
+    }
+    .course-div-animate{
+        box-shadow: 0px  5px 10px 5px #694c4c63;
+        height:auto;
+    }
+    .course-body h2{
+        top:50%;
+        left:20%;
+        font-size: 150%;
+       
+    }
+    
+    .main-vedios-container{
+        padding:20px 20px 0 20px;
+        box-shadow: -3px  0px 10px 5px #aaaaaa;
+
+        width:100%;
+        max-height:95%;
+        margin:0 auto;
+        background-color: #FFF;
+        overflow-y: scroll;
+        z-index: 2;
+    }
+    .main-vedios-container::-webkit-scrollbar{
+        width:0;
+    }
+    .video-handler{
+        box-shadow:  -5px 4px 10px  rgba(77, 66, 66, 0.712);;
+        display: inline-block;
+        width:90%;
+        height:auto;
+        margin:10px;
+        position: relative;
+    }
+    .showMore{
+        display: block;
+        margin-top:25px;
+        width:90%;
+       cursor: pointer;
+        position: absolute;
+        padding:10px;
+        top:50%;
+        transform: translateY(-50%);
+        font-size: 100%;
+        font-weight: 700;
+    }
+    .show-more-icon{
+        font-size: 200%;
+        margin: 0 0 0 80px;
+        padding:0;
+    }
+}
+
+
+
+
+/* small phone from 0 to 480px */
+@media only screen and (max-width:480px){
+    .row{
+        max-width: 350px;
+    }
+    html{
+        font-size: 17px;
+    }
+    .row2{
+       
+        max-width: 350px;
+        
+        
+    }
+ /*----------------- header section ----------------- */
+ .menu-bar{
+    background-color: white;
+    position: sticky;
+    top:0;
+    z-index: 12;
+    border-bottom:1px solid black;
+    padding-bottom:5px;
+}
+
+.nav{
+    padding-left:15px;
+}
+.nav-bar{
+    background-color: #fff;
+    position:absolute;
+    left:-115px;
+        transition: all ease-in 0.4s;
+} 
+.nav li{
+    display:block;
+    padding:5px 10px;
+   
+}
+.nav li a{
+    text-decoration: none;
+    color:black;
+    font-size: 100%;
+   
+}
+/* for animation */
+.display-block{
+    display: block;
+}
+.nav-animate{
+    box-shadow: 5px  5px  10px #535151;
+    left:0;
+    transition: all ease-in 0.4s;
+}
+/* ----------------------------------------- */
+ .title-handler{
+   padding-top: 100px; 
+ }
+    .row2 h2 div{
+        margin-bottom:15px;
+        padding:0;
+        color: cyan;
+        font-size: 150%;
+    }
+    #search-item{
+        width:58%   ;
+    height:50px;
+    display: inline-block;
+    border-radius:25px;
+    padding-left: 40%;
+    }
+    .search-button{
+       width:100%;
+       margin-top: 15px;
+       font-size: 200%;
+   border-radius: 25px ;
+   display: inline-block;
+   min-width: 10%;
+   background-color: rgb(109, 111, 202);
+    }
+    .second-handler{
+        display: block;
+    }
+    .input-handler p{
+        top: 18px;
+        left: 15px;
+        cursor: pointer;
+    }
+    .fa-chevron-down,
+    .fa-chevron-up{
+       top:23px;
+      left:120px;
+    }
+    .row3{
+       max-width: 350px;
+    }
+    .categories-items{
+        border-radius: 5px;
+        width:110px;
+        height:125px;
+        background-color: white;
+        position: absolute;
+        top:40px;
+        left:25px;
+        overflow: hidden;
+        transition: all 1s;
+    }
+  
+    .cateDiv-block{
+        top:56px;
+        left:18px;
+        width:130px;
+        height:150px;
+        transition: all 1s;
+        
+    }
+    .cateDiv:hover{
+        background-color: rgba(142, 146, 139, 0.432);
+    }  
+    .display-none{
+        display: none;
+    }
+ /*----------------- intro section ----------------- */
+ .intro{
+  
+    background-image: url(img/how-it-works-bg.jpg);
+    background-size: contain;
+}
+    .box-container{
+        padding-top: 50px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    /*----------------- dev-team section ----------------- */
+ .dev-team-box{
+    max-width: 80%;
+ }
+  /*----------------- subjects section ----------------- */
+ .sub-box{
+    width:100%;
+   
+}   .sub-text{
+    font-size: 100%;
+    font-weight: 800;
+  
+}
+/*----------------- enroll-intro section ----------------- */
+.enroll-intro .box-container{
+   align-items: center;
+}
+.intro-box{
+    width:80%;
+}
+.enroll-intro .row3 .box-container ul li{
+    padding:10px 0 10px 0;
+    font-size: 90%;
+}
+.fa-check,.fa-times{
+  
+    font-size: 90%;
+}
+
+ /*----------------- e-books section ----------------- */
+
+
+.books-box {
+    width:100%;
+    background-color: white;
+    padding:15px;
+    border-radius: 5px;
+    height: auto;
+}
+ /*----------------- blog section ----------------- */
+ .blog-box{
+     width: 100%;
+ }
+ /*----------------- contact section ----------------- */
+
+ #contact .row2 .form-handler input{
+     font-size: 100%;
+ }
+ /*----------------- footer section ----------------- */
+ .footer-box{
+    width:100%;
+    
+}
+.footer-box h5{
+    font-size: 120%;
+    padding:10px 0 10px 20px;
+}
+.footer-box ul li{
+    font-size: 100%;
+    list-style: none;
+    padding:0px 0 10px 20px;
+}
+ /*----------------- copyright section ----------------- */
+ .copy-right{
+    background-color: darkslategrey;
+    padding:15px 0 5px 0;
+    font-size: 100%;
+
+}
+.copy-right p{
+    margin-top: 4px;
+
+}
+
+
+/* ------------------------------------courses.html */
+.video-handler iframe{
+    width:100%;
+    height:100%;
+    background-color: white;
+    z-index:3;
+}
+
+
+.showMore{
+    display: block;
+    margin-top:20px;
+    width:90%;
+   cursor: pointer;
+    position: absolute;
+    padding:10px;
+    top:50%;
+    transform: translateY(-50%);
+    font-size: 100%;
+    font-weight: 700;
+}
+.show-more-icon{
+    font-size: 200%;
+    margin: 0 0 0 80px;
+    padding:0;
+}
+.showMore p{
+    display: inline;
+}
+
+
+
+/* -----------------------------------event.html----------------------- */
+
+.discount-body .row3 .box-container .books-box{
+    width:80%;
+}
+}
+ 

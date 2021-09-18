@@ -1,7 +1,7 @@
 
 
  /*----------------- basic set up ----------------- */
-html{
+ html{
     font-family: 'Open Sans', sans-serif;
     font-size:20px;
 }
@@ -89,11 +89,11 @@ body{
    
 }
 .icon-2{
-    height:7px;
-    width:35px;
+    height:5px;
+    width:30px;
     background-color: black;
     margin-bottom: 3px;
-    border-radius: 5px;
+    border-radius: 2px;
 
 }
 .iconContainer{
@@ -103,11 +103,11 @@ body{
 }
 /* ---------------------for mobile nav animation ---------------*/
 .T1{
-    transform: rotate(45deg) translateX(4px) translateY(10px);
+    transform: rotate(45deg) translateX(2px) translateY(10px);
  
 }
 .T2{
-    transform: rotate(-45deg) translateX(3px) translateY(-10px);
+    transform: rotate(-45deg) translateX(1px) translateY(-10px);
 }
 .T1,.T2,.hiding{
 transition:all 0.4s ease-in-out;
@@ -201,7 +201,7 @@ color:#fff;
 .categories-items{
     border-radius: 5px;
     width:150px;
-    height:0px;
+    height:145px;
     background-color: white;
     position: absolute;
     top:56px;
@@ -230,6 +230,7 @@ color:#fff;
     background-color: rgba(142, 146, 139, 0.432);
 }
 .cateDiv-block{
+    width: 150px;
     height:155px;
     transition: height 1s;
     
@@ -267,6 +268,7 @@ color:#fff;
  .box3{
     
      max-width: 25%;
+     max-height: 300px;
      background-color: #fff;
      border-radius: 10px;
      border:0 1px 0 0;
@@ -290,13 +292,14 @@ color:#fff;
     width:100%;
  }
  .icon-container{
-     padding:20px 15px 15px 20px;
+     padding:15px 15px 15px 15px;
      width:50px;
      height:50px;
      border-radius: 50%;
      background-color:   rgb(94, 96, 245);
-     border:6px solid;
-     border-color: rgb(66, 56, 66);
+     border:10px;
+     border-style: double;
+     border-color: #fff;
      margin:0 auto;
  }
  /*--------------------------- dev-team section------------------- */
@@ -467,6 +470,64 @@ padding:0;
     margin-right: 10px;
     font-size: 80%;
 }
+.join-course-btn{
+    font-size: 80%;
+    font-weight: 600;
+    padding:10px 20px 10px 20px;
+   border-radius: 25px;
+    background-color: rgb(0, 183, 255);
+}
+.join-course-btn a{
+    text-decoration: none;
+    color:#000;
+}
+.join-course-btn:hover{
+    background-color: rgb(3, 130, 180);;
+}
+ /*--------------------------- e-books section------------------- */
+
+.e-books .row2 p{
+    padding-top:20px;
+}
+.books-box {
+    width:25%;
+    background-color: #fff;
+    padding:15px;
+    border-radius: 5px;
+  margin-bottom:15px;
+   box-shadow: -2px  5px 10px 5px #aaaaaa;
+}
+.books-box h4,h6{
+    margin:0;
+    padding:10px 0;
+}
+.books-box h6{
+    font-size: 100%;
+    font-family: 'Kaisei Tokumin', serif;
+    font-weight: thin;
+}
+.books-box p{
+   padding:0 ;
+}
+.books-img-container{
+    width:100%;
+   
+    
+}
+.books-img{
+    width:100%;
+    
+    
+}
+.e-books-buy{
+    padding:5px 25px 5px 25px ;
+    border-radius: 5px;
+    color:lightyellow;
+    margin-top:10px;
+    float:right;
+    font-size: 90%;
+    color:black;
+}
  /*--------------------------- blog section------------------- */
  .blogs{
      padding-top: 30px;
@@ -599,17 +660,21 @@ font-size: 90%;
     
 }
 .form-handler button:hover{
-    background-color:rgb(211, 211, 211);
-    color:#fff;
+    background-color:rgb(253, 247, 247);
+  
     
 }
 /*--------------------- footer section -----------------*/
 .footer{
-    background-color: rgb(7, 211, 167);
+    background-color: rgba(2, 48, 78, 0.705);
+    
 }
 .footer-box{
     width:24%;
     
+}
+.footer-box:first-child{
+    position: relative;
 }
 .footer-box ul {
     margin: 0;
@@ -622,6 +687,7 @@ font-size: 90%;
 }
 .footer-box ul li a{
     text-decoration: none;
+    color:#000;
 }
 .footer-box h5{
     font-size: 100%;
@@ -631,6 +697,17 @@ font-size: 90%;
    color:darkmagenta;
    opacity: 0.4;
 }
+.socials{
+    position: absolute;
+    top:0px;
+    left: 0px;
+}
+.social-links li{
+    font-size: 70%;
+    list-style: none;
+    display: inline-block;
+    padding:0px 0 10px 20px;
+}
 /* ---------------------copyright section------------------- */
 .copy-right{
     background-color: darkslategrey;
@@ -638,3 +715,254 @@ font-size: 90%;
     font-size: 70%;
 
 }
+
+/* -------------------------courses.html------------------------------- */
+
+.courses-main-container{
+    padding-top:0px;
+    width:100%;
+    height:550px;
+    display:flex;
+    justify-content: space-around;
+    background-color: #fff;
+}
+.course-menu{
+    box-shadow: -10px  5px 10px 5px #aaaaaa;
+    border-radius: 10px 10px 0 0;
+    padding-top: 10px;
+    width:25%;
+    background-color: #fff;
+    min-width: 338px;
+}
+.course-body{
+    box-shadow: -10px  5px 10px 5px #aaaaaa;
+    border-radius: 10px 10px 0 0;
+    width:70%;
+    background-color: #fff;
+    padding-top:1%;
+}
+.free-course,.paid-course{
+    padding:10px 0 10px 20px;
+    font-weight: 600;
+    border-bottom-style:ridge;
+    cursor: pointer;
+  
+}
+/* .free-course:hover{
+    background-color:grey ;
+   } */
+/* .paid-course:hover{
+ background-color:rgba(128, 128, 128, 0.664) ;
+} */
+.free-courses,.paid-courses{
+    height: 0px;
+    background-color: #FFF;
+    transition: all 0.4s;
+    overflow: hidden;
+    
+}
+.courses-item{
+    padding:10px 10px 10px 20px;
+    font-size: 80%;
+
+}
+.courses-item:hover{
+    background-color: aliceblue;
+}
+.course-div-animate{
+    height:30%;
+}
+.warning {
+    box-shadow: inset 1px 4px 10px  rgba(236, 5, 5, 0.712);;
+    padding:10px 10px 10px 20px;
+    text-align: center;
+    font-size: 80%;
+}
+
+.main-vedios-container{
+    padding:20px 20px 0 20px;
+    width:95%;
+    max-height:95%;
+    margin:0 auto;
+    background-color: #FFF;
+    overflow-y: scroll;
+    z-index: 2;
+}
+.main-vedios-container::-webkit-scrollbar{
+    width:0;
+}
+.video-handler{
+    box-shadow:  -5px 4px 10px  rgba(77, 66, 66, 0.712);;
+    display: inline-block;
+    width:200px;
+    height:150px;
+    margin:10px;
+    position: relative;
+   z-index: 4;
+}
+.video-handler iframe{
+    width:100%;
+    height:100%;
+    background-color: white;
+    z-index:0;
+}
+.showMore{
+    margin-top:2px;
+    width:90%;
+   cursor: pointer;
+    font-weight: 700;
+    
+    padding:10px;
+}
+.show-more-icon{
+    font-size: 200%;
+    margin: 0 ;
+    padding:0;
+}
+.course-body h2{
+    position:absolute;
+    font-family: 'Kaisei Tokumin', serif;
+    font-size: 250%;
+    top:50%;
+    left:50%;
+    transform: translateX(-50%);
+    transform:  translateY(-50%);
+    letter-spacing: 2px;
+    z-index: 2;
+}
+    /*-------------------------------------- event.html ----------*/
+    .event-menu-container{
+        display: flex;
+        margin-top: 3px;
+
+    }
+    
+    .discount{
+        padding:5px 10px;
+        text-align: center;
+        width:50%;
+        display:inline-block;
+        
+     box-shadow: -1px  1px 10px 5px #aaaaaa;
+        
+    }
+    .lives{
+        padding:5px 10px;
+        width:50%;
+        text-align: center;
+        display:inline-block;
+        
+     box-shadow: 1px  5px 10px 5px #aaaaaa;
+    }
+    .discount:hover{
+        background-color: rgb(3, 167, 167);
+        color:white;
+    }
+    .lives:hover{
+        color:white;
+        background-color: rgb(3, 167, 167);
+    }
+    .event-body{
+        box-shadow: 1px  5px 10px 5px #aaaaaa;
+        margin-top: 3px;
+        background-color: #fff;
+       min-height:450px;
+        height: 540px;
+        display: flex;
+        width:auto;
+        overflow-x: scroll;
+        
+    }
+    .event-body::-webkit-scrollbar{
+        display:none;
+    }
+    .discount-body{
+        min-width:100%;
+       
+        background-color: #fff;
+     display: inline-block;
+     transition:all 0.4s ;
+    }
+    .lives-body{
+        padding-top:15px;
+        min-width:100%;
+        height:auto;
+        
+        display: inline-block;
+        transition:all 0.4s ;
+    }
+    .event .row .event-body{
+        width:100%;
+        
+        
+    }
+    /* ---------animation=------------ */
+    .margin-left{
+      margin-left:-100% ;
+    }
+    .margin-right{
+        margin-right: -100%;
+    }
+    /* -------------------------------------- */
+    .discount-body .row3 .box-container{
+        justify-content: space-around;
+    }
+    .discount-body .row3 .box-container .books-box{
+        width:20%;
+    }
+    .discount-body .row3 .box-container .books-box span{
+        font-size:70%;
+        margin:0 5px;
+    }
+    .discount-body .row3 .box-container .sub-box{
+        margin-bottom: 10px;
+    }
+    .discount-body .row3 .box-container .sub-box p{
+        font-family: 'Kaisei Tokumin', serif;
+        font-size:70%;
+        font-weight: thin;
+    }
+    .discount-body .row3 .box-container .sub-box .sub-text{
+        font-size:100%;
+        font-weight: 800;
+        position:absolute;
+        top:35%;
+        left:8%;
+        transform: translate(-50%,);
+        color: #fff;
+        z-index: 10;
+    }
+    /*----------------------------------------------------------- live  */
+    .live-features-container{
+        display:flex;
+        align-items: center;
+    }
+    .Live-img-logo{
+        width:50px;
+        height:50px;
+        
+    }
+    .live-section-logo{
+        width:100%;
+        height:100%;
+    }
+    .live-text-logo{
+        width:50px;
+        height: 35px;
+    }
+    .Live-text{
+        height:50%;
+        width:auto;
+        
+    }
+    .live-features-container .row{
+        padding:10px;
+    }
+
+/* --------------------------login-form section -----------------*/
+
+    .login-form .row2 h2{
+        font-family: 'Kaisei Tokumin', serif;
+        font-weight: thin;
+    }
+    
