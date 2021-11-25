@@ -1,8 +1,8 @@
 <?php 
 
-$db['db_severname']="localhost";
-$db['db_user']="root";
-$db['db_pass']="";
+$db['db_severname']="mysql-59193-0.cloudclusters.net";
+$db['db_user']="nicolas";
+$db['db_pass']="texter123";
 $db['db_name']="texter";
 
 foreach ($db as $key => $value) {
