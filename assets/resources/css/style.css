@@ -1,0 +1,383 @@
+body{
+    margin:0;
+    padding:0;
+    
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+/* -----------------------------------------header section -------------------------------------- */
+.header{
+    width:100vw;
+    height: auto;
+    background-color: rgb(195, 195, 247);
+   
+}
+.row{
+    
+    height:50px;
+    max-width: 320px;
+    min-width: 320px;
+ 
+     margin:0 auto;
+}
+.header .row{
+    
+    height:50px;
+    max-width: 320px;
+    min-width: 320px;
+ 
+     margin:0 auto;
+}
+
+.logo{
+    height:100%;
+    width:auto; 
+    
+    
+}
+.logo-image{
+    height:100%;
+    width:50px;
+  
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+  
+}
+.header-search-icon{
+    width:50px;
+    height:50px;
+    
+}
+.search-icon{
+   
+    font-size: 25px;
+    padding:12px 0 0 10px;
+    /* color: rgb(93, 42, 165); */
+}
+.menu-bar{
+  
+   margin-top: 12px;
+}
+.fa-bars{
+    font-size:25px;
+}
+/* -----------------------------------------body section -------------------------------------- */
+.body{
+    padding-left: 10px;
+    overflow: hidden;
+}
+.body .title p{
+   
+}
+.img-box{
+    /* background-color: darkblue; */
+    height:220px;
+    width:95vw;
+    max-width: 350px;
+    /* width:300px; */
+    margin-bottom: 5px;
+}
+.slider{
+    width:100%;
+    height: 100%;
+    border-radius: 10px;
+overflow: hidden;
+}
+.slides{
+    width:100%;
+    height:100%;
+    display:flex;
+}
+.slides input{
+    display:none;
+
+}
+.slide{
+  
+    transition: 2s;
+    
+}
+.slide img{
+    max-width: 350px;
+    width:95vw;
+    height:100%;
+    
+}
+
+.navigation-manual{
+position:absolute;
+width:100%;
+margin-top:240px;
+display:flex;
+justify-content: center;
+}
+.manual-btn{
+    border: 2px solid;
+    padding:5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.manual-btn:not(:last-child){
+    margin-right: 20px;
+}
+.manual-btn:hover{
+    background: rgb(123, 141, 245);
+}
+
+#radio1:checked ~ .first{
+    margin-left:0;
+}
+#radio2:checked ~ .first{
+    margin-left:-100%;
+}
+#radio3:checked ~ .first{
+    margin-left:-200%;
+}
+#radio4:checked ~ .first{
+    margin-left:-300%;
+}
+
+
+
+.navigation-auto{
+    position:absolute;
+    display:flex;
+    width:100%;
+    /* width:800px; */
+    justify-content: center;
+    margin-top:240px;
+}
+.navigation-auto div{
+border:2px solid;
+padding:5px;
+border-radius:10px;
+transition: 1s;
+}
+.navigation-auto div:not(:last-child){
+    margin-right: 20px;
+}
+#radio1:checked ~ .navigation-auto .auto-btn1{
+     background: rgb(123, 141, 245) ;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background: rgb(123, 141, 245) ;
+}
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background: rgb(123, 141, 245) ;
+}
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background: rgb(123, 141, 245) ;
+}
+/* -------------------------------- */
+.hot-app-boxes-container, .hot-game-boxes-container{
+    width:95vw;
+    height: 140px;
+    background-color: rgb(244, 248, 244);
+    padding:15px;
+    border: 1px solid;
+   display: flex;
+    overflow-x: scroll;
+}
+
+
+.body h5{
+    font-size: 20px;
+}
+.hot-app, .hot-game{
+    min-width: 80px;
+ width:80px;
+ height:135px;
+ background-color: #ffffff;
+ margin-right: 15px;
+padding-bottom: 5px;
+display: inline-block;
+
+border: 1px solid;
+}
+.hot-app-boxes-container::-webkit-scrollbar{
+    display: none;
+}
+.hot-game-boxes-container::-webkit-scrollbar{
+    display: none;
+}
+.hot-app-img-container, .hot-game-img-container{
+    width:79px;
+    height:79px;
+  
+}
+.hot-app-img, .hot-game-img{
+    width:100%;
+    height: 100%;
+}
+.rating-star{
+    font-size: 10px;
+    color:gold;
+    
+}
+.rating-star-less{
+    font-size: 10px;
+}
+/* --------------------------------------- */
+.all-app-boxes-container{
+    width:93vw;
+    height: 300px;
+    background-color:rgb(244, 248, 244);
+    border: 1px solid;
+    overflow-y: scroll;
+    padding:5px;
+}
+.all-app-boxes-container::-webkit-scrollbar{
+    display: none;
+}
+.all-app{
+    width:100%;
+    height: 70px;
+    background-color: #ffffff;
+    display: flex;
+    margin-bottom: 5px;
+    border: 1px solid;
+}
+.all-app-img-container{
+    width: 70px;
+    height: 70px;
+
+}
+.all-app-img{
+    width:100%;
+    height: 100%;
+}
+.info{
+    margin:10px 0 0 10px;
+}
+/* ------------------------------------------------------ */
+.row2{
+
+  
+        height:100px;
+        max-width: 320px;
+        min-width: 320px;
+     display:flex;
+         margin:0 auto;
+         margin-top: 50px;
+         border-radius: 5px 0 0 5px;
+         box-shadow: 2px 2px 2px grey;
+}
+.app-icon-img-continer{
+    width:100px;
+    height:100px;
+   border-radius: 5px;
+   overflow: hidden;
+}
+.app-icon-img{
+    width:100%;
+    height: 100%;
+}
+.app-info{
+    margin:10px 0 0 15px;}
+.row3{
+    height:50px;
+    max-width: 320px;
+    min-width: 320px;
+display: flex;
+justify-content: center;
+
+    margin:0 auto;
+    margin-top: 50px;
+
+   
+}
+.row-review{
+    height:auto;
+    max-width: 320px;
+    min-width: 320px;
+
+
+    margin:0 auto;
+    margin-top: 50px;
+
+    /* box-shadow: 2px 2px 2px grey; */
+}
+.row3 button{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(0, 73, 0);
+}
+.download-btn{
+   border-radius: 5px;
+    width:80%;
+    padding:10px;
+/* background-color: cornflowerblue; */
+}
+.des-text{
+    height: auto;
+    max-width: 320px;
+    min-width: 320px;
+    margin:0 auto;
+    padding:10px 5px 0 5px;
+}
+.des-text p{
+    font-size: 14px;
+}
+.rev-box-from-others{
+    margin-top:10px;
+ border:1px solid;
+ padding:10px;
+}
+.row-review .rev-box .rate-stars-container .rating-star{
+font-size: 20px;
+}
+.row-review .rev-box .rate-stars-container .rating-star-less{
+    font-size: 20px;
+    color: rgb(189, 187, 187);
+}
+.row-review .rev-box .rate-stars-container {
+    margin:10px 0 10px 10px;
+}
+.rev-box{
+    margin-top:10px;
+    border:1px solid;
+ padding:10px;
+}
+.rev-input{
+    padding:10px 15px 10px 10px;
+    width:70%;
+    
+}
+.rev-btn{
+    padding:10px;
+    width:20%;
+    
+}
+.review-name{
+    padding:10px 15px 10px 10px;
+    width:50%;
+    margin-bottom: 10px;
+}
+.review-box-from-other-container{
+    max-height: 500px;
+    overflow: hidden;
+}
+.see-all{
+    padding:10px;
+    margin-left: 30%;
+    
+    margin-top: 10px;
+}
+/* -----------------------------------------footer section -------------------------------------- */
+.footer{
+    min-height: 100px;
+    padding:20px 0;
+  
+    width: 100vw;
+}
+.footer ul li{
+    list-style: none;
+    font-size: 15px;
+    color: rgb(165, 165, 165);
+    margin-bottom: 10px;
+  text-align: center;
+}
